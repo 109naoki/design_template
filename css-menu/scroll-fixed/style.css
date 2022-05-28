@@ -1,0 +1,33 @@
+.one {
+  position: sticky;
+  top: 0;
+  width: 60px;
+  background: #e4bcbc;
+}
+
+.two {
+  position: sticky;
+  top: 60px;
+  width: 120px;
+  background: #7183ac;
+}
+
+.three {
+  position: sticky;
+  top: 120px;
+  width: 180px;
+  background: #7183ac;
+}
+
+.one,
+.two,
+.three {
+  height: 60px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.space {
+  height: 150px;
+  border-top: solid 10px #cccccc;
+}

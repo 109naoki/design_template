@@ -1,0 +1,10 @@
+.sheep {
+  position: fixed;
+  right: 40px;
+  bottom: 120px;
+  width: 80px;
+}
+
+.sheep img {
+  width: 100%;
+}
