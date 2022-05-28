@@ -1,0 +1,39 @@
+.schedule {
+  display: grid;
+  grid-template-areas:
+    "title title"
+    "time list";
+
+  grid-template-columns: 100px auto;
+}
+
+.schedule .title {
+  grid-area: title;
+  color: white;
+  background: #8e6f5c;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.schedule .time {
+  grid-area: time;
+  background: #4b697f;
+}
+
+.schedule img {
+  width: 100%;
+}
+
+.schedule .digital {
+  color: #8e6f5c;
+  background: #c2b185;
+  border-top: solid 2px;
+  border-bottom: solid 2px;
+  text-align: center;
+
+}
+
+.schedule .list {
+  grid-area: list;
+  background: #dddddd;
+}

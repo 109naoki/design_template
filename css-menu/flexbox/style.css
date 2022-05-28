@@ -1,0 +1,14 @@
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  background: #01558d;
+  color: white;
+}
+
+.menu li {
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+}
